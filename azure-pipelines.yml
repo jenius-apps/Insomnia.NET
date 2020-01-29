@@ -37,4 +37,4 @@ steps:
     versioningScheme: 'off'
 
 # Push a project
-- script: dotnet nuget push $(Build.ArtifactStagingDirectory)/**/*.nupkg -s https://api.nuget.org/v3/index.json -k $(apiKey)
+- script: dotnet nuget push $(Build.ArtifactStagingDirectory)/**/*.nupkg -s https://api.nuget.org/v3/index.json -k $(insomniaNugetKey)
