@@ -3,10 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Insomnia.NET.Models</RootNamespace>
+    <PackageId>JeniusApps.Insomnia.NET</PackageId>
+    <Version>0.0.1-preview</Version>
+    <Authors>Daniel Paulino</Authors>
+    <Company>JeniusApps</Company>
+    <Product>Insomnia.NET</Product>
+    <Description>An unofficial .NET Standard implementation of the Insomnia object schema.</Description>
+    <Copyright>© Jenius Apps</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/jenius-apps/Insomnia.NET</RepositoryUrl>
+    <PackageTags>insomnia,schema,dotnet,dotnet-standard</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
