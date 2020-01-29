@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Insomnia.NET.Models</RootNamespace>
     <PackageId>JeniusApps.Insomnia.NET</PackageId>
-    <Version>0.0.2-preview</Version>
+    <Version>0.0.3-preview</Version>
     <Authors>Daniel Paulino</Authors>
     <Company>JeniusApps</Company>
     <Product>Insomnia.NET</Product>
@@ -15,6 +15,9 @@
     <PackageTags>insomnia,schema,dotnet,dotnet-standard</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
