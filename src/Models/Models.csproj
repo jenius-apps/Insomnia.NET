@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Insomnia.NET.Models</RootNamespace>
     <PackageId>JeniusApps.Insomnia.NET</PackageId>
-    <Version>0.0.1-preview</Version>
+    <Version>0.0.2-preview</Version>
     <Authors>Daniel Paulino</Authors>
     <Company>JeniusApps</Company>
     <Product>Insomnia.NET</Product>
